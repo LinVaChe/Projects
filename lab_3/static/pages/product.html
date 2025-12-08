@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Интерьер-центр – Главная</title>
+    <link rel="stylesheet" href='../style.css'>
+</head>
+
+<body>
+    <input type="checkbox" id="toggleForm" style="display:none;">
+    <div id="modal-container"></div>
+
+    <div class="header">
+        <div class="logo">
+            <img src="../pics/pic_logo.jpg" alt="Логотип">
+        </div>
+        <h1>ИНТЕРЬЕР-ЦЕНТР</h1>
+        <div class="login">
+            логин: <input type="text" id ="login-email"><br>
+            пароль: <input type="password" id="login-password"><br>
+            <label for="toggleForm" class="register_link">регистрация</label>
+            <button id="login-btn">войти</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <a href="catalog.html#category-hall">Коридорные модули</a>
+        <a href="catalog.html#category-sofa">Диваны</a>
+        <a href="catalog.html#category-wardrobe">Шкафы</a>
+        <a href="catalog.html#category-bed">Кровати</a>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="catalog.html">Каталог</a>
+        </div>
+
+        <div class="center_product">
+            <div class="top_section">
+                <img id="product-image" class="product-photo">
+
+                <div class="product_text">
+                    <h2 id="product-name"></h2>
+                    <p id="product-description"></p>
+                </div>
+            </div>
+
+            <p id="product-price"></p>
+
+            <button id="add-to-cart-btn">Добавить в корзину</button>
+
+            <h3>Характеристики</h3>
+            <ul id="product-properties"></ul>
+        </div>
+
+
+        <div class="right">
+            <a href="https://www.moon.ru/" target="_blank">
+            <img src="../pics/baner_1.jfif" 
+             alt="здесь могла быть реклама конкурентов но сегодня без них" width="100%">
+            </a>
+            <br><br>
+
+            <a href="https://www.hoff.ru/" target="_blank">
+            <img src="../pics/baner_2.jfif" 
+             alt="Hoff" width="100%">
+            </a>
+            <br><br>
+
+            <a href="https://tkani-mira.ru/" target="_blank">
+            <img src="../pics/baner_3.jfif" 
+             alt="интерьер-магазин штор, подходящих к нашей мебели'" width="100%">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 Интерьер-центр | Все права защищены
+    </div>
+
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/products.js"></script>
+
+</body>
+</html>

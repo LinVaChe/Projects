@@ -1,0 +1,97 @@
+<!--Не работает модалка пробовала с сервером он ещё и подтягивать баннеры запретил пидорас-->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Интерьер-центр – О нас</title>
+    <link rel="stylesheet" href='../style.css'>
+</head>
+
+<body>
+    <input type="checkbox" id="toggleForm" style="display:none;">
+
+    <!-- index.html -->
+    <div id="modal-container"></div>
+
+    <div class="header">
+        <div class="logo">
+            <img src="../pics/pic_logo.jpg" alt="Логотип">
+        </div>
+        <h1>ИНТЕРЬЕР-ЦЕНТР</h1>
+        <div class="login">
+            логин: <input type="text" id ="login-email"><br>
+            пароль: <input type="password" id="login-password"><br>
+            <label for="toggleForm" class="register_link">регистрация</label>
+            <button id="login-btn">войти</button>
+        </div>
+
+    </div>
+
+    <div class="menu">
+        <a href="catalog.html#category-hall">Коридорные модули</a>
+        <a href="catalog.html#category-sofa">Диваны</a>
+        <a href="catalog.html#category-wardrobe">Шкафы</a>
+        <a href="catalog.html#category-bed">Кровати</a>
+    </div>
+
+
+    <div class="container">
+        <div class="left">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="catalog.html">Каталог</a>
+        </div>
+
+        <div class="center">
+            <h2>Наша история</h2>
+            <p>Компания «Интерьер-центр» была основана в 2005 году с целью создать пространство, где каждый сможет подобрать мебель, соответствующую его стилю и образу жизни. Изначально мы начинали с небольшой мастерской по производству мебели, но благодаря вниманию к качеству и индивидуальному подходу к клиентам, быстро завоевали доверие покупателей.</p>
+
+            <p>В 2010 году «Интерьер-центр» открыл первый полноценный салон, предлагающий широкий ассортимент мебели от отечественных и зарубежных производителей. Мы всегда следили за последними тенденциями в дизайне интерьера, чтобы предлагать нашим клиентам современные и функциональные решения.</p>
+
+            <p>С 2015 года мы начали активно развивать онлайн-продажи, предоставляя возможность подобрать и заказать мебель через интернет. В этом же году был внедрен сервис доставки и сборки мебели, что значительно улучшило удобство для наших клиентов.</p>
+
+            <p>Сегодня «Интерьер-центр» — это сеть салонов, где каждый посетитель может найти мебель для любого интерьера, воспользоваться консультацией дизайнеров и заказать доставку и сборку. Мы продолжаем развиваться, внедрять новые технологии и следить за качеством, чтобы каждый дом стал уютным и стильным.</p>
+
+            <h2>Наши ценности</h2>
+            <ul type="square">
+                <li>Качество и надежность продукции</li>
+                <li>Индивидуальный подход к каждому клиенту</li>
+                <li>Современный дизайн и функциональность</li>
+                <li>Комфорт и удобство при покупке мебели</li>
+            </ul>
+
+            <div id="reviews-box"></div>
+
+        </div>
+
+        <div class="right">
+            <a href="https://www.moon.ru/" target="_blank">
+            <img src="../pics/baner_1.jfif" 
+             alt="здесь могла быть реклама конкурентов но сегодня без них" width="100%">
+            </a>
+            <br><br>
+
+            <a href="https://www.hoff.ru/" target="_blank">
+            <img src="../pics/baner_2.jfif" 
+             alt="Hoff" width="100%">
+            </a>
+            <br><br>
+
+            <a href="https://tkani-mira.ru/" target="_blank">
+            <img src="../pics/baner_3.jfif" 
+             alt="интерьер-магазин штор, подходящих к нашей мебели'" width="100%">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 Интерьер-центр | Все права защищены
+    </div>
+
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/review.js"></script>
+
+</body>
+</html>
