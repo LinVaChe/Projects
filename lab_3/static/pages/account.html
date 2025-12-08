@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="../pics/pic_logo.jpg" alt="logo">
+        </div>
+        <h1>ИНТЕРЬЕР-ЦЕНТР</h1>
+        <div class="login"></div>
+    </div>
+
+    <div class="menu">
+        <a href="catalog.html#category-hall">Коридорные модули</a>
+        <a href="catalog.html#category-sofa">Диваны</a>
+        <a href="catalog.html#category-wardrobe">Шкафы</a>
+        <a href="catalog.html#category-bed">Кровати</a>
+    </div>
+
+    <div class="container">
+
+        <div class="left">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="catalog.html">Каталог</a>
+        </div>
+
+        <div class="center">
+            <h2>Ваш личный кабинет</h2>
+
+            <div id="user-info">Загрузка...</div>
+
+            <h3>Оставьте отзыв</h3>
+            <textarea id="review-text" placeholder="Напишите отзыв..."></textarea>
+            <button id="send-review">Отправить отзыв</button>
+
+            <p id="review-status"></p>
+
+            <h3>Ваши документы</h3>
+            <ul type ="square">
+                <li><a href="../docs/privacy.pdf" download>Политика конфиденциальности</a> </li>
+                <li><a href="../docs/data_rules.pdf" download>Правила обработки данных</a> </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <a href="https://www.moon.ru/" target="_blank">
+            <img src="../pics/baner_1.jfif" 
+             alt="здесь могла быть реклама конкурентов но сегодня без них" width="100%">
+            </a>
+            <br><br>
+
+            <a href="https://www.hoff.ru/" target="_blank">
+            <img src="../pics/baner_2.jfif" 
+             alt="Hoff" width="100%">
+            </a>
+            <br><br>
+
+            <a href="https://tkani-mira.ru/" target="_blank">
+            <img src="../pics/baner_3.jfif" 
+             alt="интерьер-магазин штор, подходящих к нашей мебели'" width="100%">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">© 2025 Интерьер-центр | Все права защищены</div>
+
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/account.js"></script>
+    <script src="/scripts/userpanel.js"></script>
+
+</body>
+</html>

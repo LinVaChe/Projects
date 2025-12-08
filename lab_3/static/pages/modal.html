@@ -1,0 +1,51 @@
+
+<!-- Модальное окно регистрации -->
+    <div class="modal">
+      <div class="modal-content">
+        <label for="toggleForm" class="close-label">✖</label>
+        <h2 style="text-align: center;">Регистрация пользователя</h2>
+        <form class="contact-form">
+          <label>Имя:</label>
+          <input type="text" name="name" placeholder="Введите имя" required class="input_form_name">
+
+          <label>Email:</label>
+          <input type="email" name="email" placeholder="Введите email" required class="input_form_email">
+
+          <label>Пароль:</label>
+          <input type="password" name="password" placeholder="Введите пароль" required class="input_form_password"><br><br>
+
+          <label>Пол:</label><br>
+          <input type="radio" name="gender" value="male"> Мужской
+          <input type="radio" name="gender" value="female"> Женский<br><br>
+
+          <label>Тип платежной карты:</label><br>
+          <input type="checkbox" name="interest" value="peace"> Мир
+          <input type="checkbox" name="interest" value="MC"> MasterCard
+          <input type="checkbox" name="interest" value="VISA"> VISA<br><br>
+
+          <label>Страна:</label>
+          <select name="country">
+            <option>Россия</option>
+            <option>Беларусь</option>
+            <option>Казахстан</option>
+          </select>
+          <br><br>
+          <label>О себе:</label>
+          <textarea name="about" placeholder="Коротко расскажите о себе" class="input_form_message"></textarea>
+
+          <div class="policy">
+          <label>
+            <input type="checkbox" required>
+            Принимаю <a href="../docs/privacy.pdf" download>политику конфиденциальности</a>
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" required>
+            Принимаю <a href="../docs/data_rules.pdf" download>правила обработки данных</a>
+          </label>
+          </div> <br>
+
+          <button type="submit" class="contact_button">Зарегистрироваться</button>
+        </form>
+      </div>
+    </div>
