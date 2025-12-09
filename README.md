@@ -8,11 +8,11 @@ backend/ - FastAPI бэкенд
 
 Запуск бэкенда 
 Из папки lab_3 через терминал
-```python uvicorn backend.main:app --reload```
+```uvicorn backend.main:app --reload```
 API документация: http://127.0.0.1:8000/docs
 
 Запуск фронтенда
-Из папки lab_3 через терминал командой python -m http.server
+Из папки lab_3 через терминал командой ```python -m http.server```
 Фронтенд будет доступен по адресу: http://localhost:8000
 Главная страница магазина по ссылке: http://localhost:8000/static/pages/index.html
 
